@@ -35,7 +35,7 @@ if response.status_code == 200:
    report = data['weather']
    #Transforming the temperature from K into °C
    print(f"{CITY:-^30}")
-   #Einheiten hinzugefügt
+   #Adding units to output data
    print(f"Temperature: {temperature}" + " °C")
    print(f"Humidity: {humidity}" + " %")
    print(f"Pressure: {pressure}" + " hpa")
